@@ -52,7 +52,7 @@ function myValidate(inE,outE){
     else if(inE.validity.valid === false)
         message = 'パータンが違います。</br>';
     else
-        message = 'img src="image/check.png">';
+        message = 'img src="check.png">';
     //メッセージの表示
     outE.innerHTML = message;
 }
