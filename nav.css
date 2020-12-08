@@ -1,0 +1,49 @@
+header h1{
+    margin-bottom: 0px;
+}
+nav{
+    font-family: cursive;
+    background-color: #222222;
+    color: white;
+}
+nav ul{
+    display: flex;
+    flex-flow: row;
+    margin: 0;
+    padding: 6px;
+    /*
+    justify-content: center;
+    */
+    list-style-type: none;
+}
+nav li.login{
+    margin-left: auto;
+}
+nav a{
+    display: block;
+    border-radius: 7px;
+    padding: 12px 24px;
+    text-decoration: inherit;
+    color: red;
+}
+nav li:hover{
+    background-color:blue;
+}
+nav ul li a#target{
+    color:gold;
+}
+@media only screen and (max-width: 768px){
+    h1{
+        font-size: 100%;
+    }
+    nav ul{
+        flex-flow: column;
+    }
+    nav li{
+        font-size: 80%;
+    border-bottom: 1px solid #444;
+    }
+    nav button a{
+        height: 10px;
+    }
+}

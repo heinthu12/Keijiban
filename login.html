@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+    
+<!-- 携帯対応 -->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0" />
+<title>へイン　トウ</title>
+<link rel = "stylesheet" href="css/form.css"/>
+    <link rel = "stylesheet" href="css/nav.css">
+    <script src="js/login.js"></script>
+</head>
+    <nav>
+            <ul>
+            <button><li><a href="top.html" >top.html</a></li></button>
+             <button><li><a href="index.html">index.html</a></li></button>
+             <button><li><a href="input.html">input.html</a></li></button>
+             <button><li><a href="regist.html">regist.html</a></li></button>
+             <button><li><a href="login.html" id="target">login.html</a></li></button>
+                </ul>
+            </nav>
+    <body>
+        <header><h1>ログイン</h1></header>
+<p>
+     <input type="button" value="新規登録" onclick ="location.href='regist.html">
+    <input type="button" value="戻る">
+        
+    </p>
+<br>
+</br>
+<form>
+   
+<p>
+    
+<label><span> 出席番号 :</span>
+    <input id= "roll" type ="text" name="no" pattern="[A-Z]{1}[0-9]{3}" maxlength="4" placeholder="J218" required>
+    </label></br>
+      <span id="eno"></span>
+    
+    
+    <p>
+        <label><span>パスワード :</span>  
+<input id = "pass" type="password" name="password" maxlength="20" placeholder="abc1234" required
+       pattern= "(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{8,20}"
+       title="半角英数字で入力してください・">
+            <span id="epass"></span>
+       </label>
+    </p>
+        <div id=hh></div>
+    
+    <p>
+    <input id ="submit" type="submit" value="submit">
+        <input id ="reset" type="reset" value="reset">
+    </p>
+</form>
+    </body>
+</html>

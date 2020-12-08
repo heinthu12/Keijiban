@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>J218へイントウ</title>
+<link rel="stylesheet" href="css/main.css" />
+    <link rel = "stylesheet" href="css/nav.css">
+<script src="js/input.js"></script>
+</head>
+     <nav>
+            <ul>
+            <button><li><a href="top.html" >top.html</a></li></button>
+             <button><li><a href="index.html" >index.html</a></li></button>
+             <button><li><a href="input.html" id="target">input.html</a></li></button>
+             <button><li><a href="regist.html" >regist.html</a></li></button>
+             <button><li><a href="login.html" >login.html</a></li></button>
+                </ul>
+            </nav>
+    </br>
+<body>
+    <form>
+        <div id="color">
+            <button value="#f00">red</button>
+            <button value="#0f0">green</button>
+            <button value="#00f">blue</button>
+        </div>
+        <div class="clear">
+            <button>clear</button>
+        </div>
+        <div class="field">
+        <canvas id ="board" width="300" height="200">//blabla</canvas>
+        </div>
+<div class="field">
+<label>件名 :<br/>
+    <input id ="subject" type= "text" size="30"
+     autofocus required placeholder="件名をに入力してください。"/></label>
+
+<div class="field">
+    <label>メモ :<br />
+        <textarea id ="memo" cols="30" row="25"
+               required placeholder="ひとことメモを入力してください。"></textarea></label>
+</div> 
+<div class="field">  
+    <input id ="save" type= "submit" class="btn" value="保存"> <br />
+    <input id ="cancel" type= "reset" class="btn" value="キャンセル"/ >
+     
+  
+</div>
+</form>
+</body>
+</html>

@@ -1,0 +1,100 @@
+h1{
+    font-size: 1.5em;
+    font-family: serif;
+    color:#c08B9B;
+    text-align: center;
+}
+
+form{
+    color: #666;
+    padding: 7px;
+    margin-bottom: 15px;
+    border: 3px solid #EEE9ED;
+    border-radius: 15px;
+}
+form p{
+    margin: 7px 0 0;
+    padding: 10px;
+    font-size: 12px;
+    background: #EEE9Ed;
+    border-radius: 8px;
+    overflow:hidden;
+    clear : left;
+}
+form p :first-child{
+    margin: 0;
+}
+form p:last-child {
+    text-align: center;
+}
+
+form p span{
+    width:8em;
+    margin:0px;
+    display: block;
+    float:left;
+}
+form p label input,.txtfiled,form p select {
+    
+    width: 16em;
+    padding: 3px;
+    margin: 0px;
+    color: #666;
+    border: solid 1px #CCC;
+    background: #fff;
+    box-shadow: 1px 1px 1px #fff;
+    border-radius: 7px;
+}
+.txtfiled{
+    height: 6em;
+}
+form p select,form p input[type="color"]{
+    width: 8em;
+}
+form p input[type ="radio"]{
+    width: 1em;
+    margin-left: 1.5em;
+}
+form p span.radio{
+    display: block;
+    width: 10em;
+    float: left;
+}
+form p span.radio label input{
+    margin-right: 0.5em;
+}
+form p span.radio label:hover{
+    background: #C08B9B;
+    color: #fff;
+    font-weight: bold;
+}
+form p input[type="submit"],
+form p input[type="reset"],
+p input[type="button"]
+
+{
+    cursor: pointer;
+    font-size: 130%;
+    font-weight: bold;
+    width: 100px;
+    padding: 4px 10px;
+    margin-right: 0.5em;
+    color: #fff;
+    border: 1px solid #bbb;
+    background: #C09B9B;
+    background: lineat-gradient(#E7D6DB, #C08B9B);
+    border-radius: 5px;
+    box-shadow:1px 1px 1px #fff;
+}
+form p input[type="submit"]:hover,
+form p input[type="reset"]:hover,
+p input[type="button"]:hover{
+    opacity: 0.8;
+    font-size: 135%;
+}
+p input[type="button"]{
+    float: right;
+}
+input:focus:invalid{
+    color:red;
+}

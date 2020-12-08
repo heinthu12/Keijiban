@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+<meta charset="UTF-8" />
+    
+<!-- 携帯対応 -->
+    <meta name="viewport"
+          content="width=device-width">
+<title></title>
+</head>
+     <body>
+<header>
+<h1>会員登録 S187162</h1>
+    <div id="result"></div>
+    <link rel="stylesheet" href="css/form.css">
+    <link rel = "stylesheet" href="css/nav.css">
+    <script src="js/regist.js"></script>
+    <title>J218へイントウ</title>
+     <nav>
+            <ul>
+            <button><li><a href="top.html" >top.html</a></li></button>
+             <button><li><a href="index.html" >index.html</a></li></button>
+             <button><li><a href="input.html">input.html</a></li></button>
+             <button><li><a href="regist.html" id="target">regist.html</a></li></button>
+             <button><li><a href="login.html" >login.html</a></li></button>
+                </ul>
+            </nav>
+</header>
+<p>
+
+        <input type="button" value="戻る" onclick="history.back()">
+        
+    </p>
+<br>
+</br>
+<form>
+    <p>
+<label><span> 出席番号 :</span>
+    <input type ="text" name="name" pattern="[A-Z]{1}[0-9]{3}" maxlength="4" placeholder="J218" required>
+</label>
+    
+    </p>
+<p>
+<label><span> お名前 :</span>
+    <input type ="text" name="name"  maxlength="30"  autofocus required>
+
+</label>
+    </p>
+    <p>
+        <label><span>パスワード :</span>  
+<input type="password" name="password" maxlength="20" required 
+       pattern= "(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{8,20}"
+       title="半角英数字で入力してください・">
+       </label>
+    </p>
+        <p>
+    <label><span>メールアドレス:</span>
+        <input type="email" name="email"
+               title =aaa@bbbbb.com>
+            </label>
+    </p>
+    <p>
+    <label>
+        
+        <span>特別（せいべつ）</span>
+        <input type="radio" name="性別" value="男" checked /> 男　
+<input type="radio" name="性別" value="女" /> 女
+        
+        </label>
+    </p>
+    <p>
+    <label>
+        <span>国籍 </span>
+        <select name ="nationality">
+        <option value="japan">日本</option>
+        <option value="mynamar">ミャンマー</option>
+        <option value="vitenum">ベトナム</option>
+        </select>
+        </label></p>
+    <p>
+    <label>
+        <span>生年月日</span>
+        <input type="date" name="date" min="1970-04-01" max="2002-04-30">
+        </label>
+    </p>
+    <p>
+    <label>
+        <span>あなたの国あいさつは？</span>
+        <textarea name="greeting" class="txtfiled"  placeholder="こんにちは！ " ></textarea>
+        </label>
+    </p>
+    <p>
+        <label>
+        
+        <span>好きな色は？</span>
+            <span>
+            <input type="color" name="color" list="colorType" value="#000000">
+         <datalist id="colorType">
+        <option  value="#000000"></option>
+        <option  value="#FF0000"></option>
+                </datalist>
+            </span>
+        </label>
+    </p>
+    <p>
+    <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </p>
+</form>
+    </body>
+</html>

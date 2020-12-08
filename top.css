@@ -1,0 +1,77 @@
+@media screen and (max-width:767){}
+header{
+  /*background : green;*/
+  padding : auto;
+    background-image: url("../image/bg.jpg");
+    background-repeat:no-repeat 100% 70%;
+    height:100px;
+    width: auto;
+    text-align: center;
+    color : white;
+}
+table, th, td {
+  border: 1px solid black;
+  
+  padding:2px;
+ 
+        a
+}
+#footer{
+  background:#333;
+  color:#fff;
+  text-align:center;
+  padding:2px;
+  margin-top:20px;
+ 
+  }
+
+.icons{
+  float:right;
+  font-size:36px;
+  margin-left:15px;
+}
+#Copyright{
+  text-align:center;
+  font-size:12px;
+  padding-top:15px;
+}
+/*ntent table td.myColor{
+    background-color: pink;
+}
+*/
+/*議事要素:*/
+tr td:nth-child(2){
+    background-color: azure;
+}
+tr td:first-child{
+    background:#cc33cc;
+    color: #ffccff;
+}
+
+a:hover,a:active{
+    font-size:150 %;
+}
+.index{
+    background-color: #4CAF50;
+}
+button a{ 
+    
+    color: white; /* Add a text color */
+　  cursor: pointer; /* Add a pointer cursor on mouse-over */
+    border:none;
+    padding: 14px 28px;
+    
+}
+button{
+    background-color: #4CAF50
+}
+body{
+    height: 100%;
+    margin: 0;
+}
+//*body{
+    background-image: url("../image/00.jpg");
+}*/
+.fa-facebook {
+  
+}
